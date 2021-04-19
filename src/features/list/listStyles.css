@@ -1,0 +1,173 @@
+.hidden {
+  display: none;
+}
+
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.listRowHeader {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: #707070;
+  width: 100%;
+}
+
+.listRowOdd {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: #ddd;
+  width: 100%;
+}
+
+.listRowEven {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: #aaa;
+  width: 100%;
+}
+
+.listRowHeader p {
+  font-weight: bold;
+  flex-grow: 4;
+  flex-shrink: 4;
+  flex-basis: 0;
+  margin-left: 2%;
+}
+
+.listRowOdd p {
+  flex-grow: 4;
+  flex-shrink: 4;
+  flex-basis: 0;
+  margin-left: 2%;
+}
+
+.listRowEven p {
+  flex-grow: 4;
+  flex-shrink: 4;
+  flex-basis: 0;
+  margin-left: 2%;
+}
+
+.listWithButton {
+  background-color: #ccc;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  height: 80vh;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px 1px 1px 1px;
+  border-style: groove;
+}
+
+.listWithButton button {
+  height: 7%;
+  width: 20%;
+  margin: 0% 0% 2% 0%;
+  background-color: #707070;
+  box-shadow: none;
+  outline: none;
+}
+
+.list {
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.listElement {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1px 0px 1px 0px;
+}
+
+.filters {
+  background-color: #ccc;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  margin-right: 0.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  height: 80vh;
+  border: 1px 1px 1px 1px;
+  border-style: groove;
+}
+
+.filters input {
+  margin: 0% 10% 10% 10%;
+}
+
+.filters button {
+  text-align: center;
+  width: 40%;
+  height: 7%;
+  background-color: #707070;
+  box-shadow: none;
+  outline: none;
+}
+
+.detailedElement {
+  background-color: #cbcbcb;
+  display: flex;
+  flex-direction: row;
+}
+
+.detailedElementColumn {
+  background-color: #ddd;
+  margin: 0.5% 0% 0.5% 0.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 0;
+}
+
+.detailedElementColumn div {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0% 5% 0% 5%;
+}
+
+.filmList {
+  background-color: #ddd;
+  margin: 0.5% 0.5% 0.5% 0.5%;
+  width: 50%;
+}
+
+.oddColor {
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  background-color: #ddd;
+}
+
+.evenColor {
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  background-color: #aaa;
+}
